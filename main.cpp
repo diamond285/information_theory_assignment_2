@@ -92,6 +92,6 @@ int main() {
     if(arr[i] == 0) {
       break;
     }
-    cout << char(arr[i + 128]) << " - " << arr[i] << endl;
+    cout << char(arr[i + 128]) << " - " << arr[i] / size << endl;
   }
 }
