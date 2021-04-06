@@ -94,4 +94,5 @@ int main() {
     }
     cout << char(arr[i + 128]) << " - " << arr[i] / size << endl;
   }
+  delete[] arr;
 }
